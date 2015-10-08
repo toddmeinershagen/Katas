@@ -1,0 +1,14 @@
+Agenda - 2015/10/08
+===================
+
+1.	Introduce/Review Dojo Principles
+2.	Activity Concensus
+3.	Coding
+	a.	Design - Domain Model
+	b.	Code - Randori
+4.	Retrospective
+	a.	Right Down
+		- Something you learned
+		- Something that surprised you
+		- Something you still don't understand
+	b.	Share
