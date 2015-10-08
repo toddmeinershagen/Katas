@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="katas-bowling-design.JPG" />
+    <Content Include="tdd-flow.gif" />
     <Content Include="Tests.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
