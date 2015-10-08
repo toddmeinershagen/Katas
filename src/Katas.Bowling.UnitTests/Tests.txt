@@ -1,0 +1,21 @@
+Tests
+=====
+
+The following are a suggested list of tests in priority order for the Bowling kata.
+
+1.  all 0 - gutter game
+	a.  Rolls:	0, 0, ...
+	b.  Score:	0
+2.  all ones
+	a.  Rolls:	1, 1, ... 
+	b.  Score:	20
+3.  one spare
+	a.  Rolls:	5, 5, 3, 0, 0, ... 
+	b.  Score:	16
+4.  one strike
+	a.  Rolls:	10, 3, 4, 0, ...
+	b.	Score:	24
+5.	perfect game
+	a.	Rolls:  10, 10, ...
+	b.  Score:  300
+6.	
