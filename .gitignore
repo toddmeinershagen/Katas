@@ -7,6 +7,7 @@
 *.userosscache
 *.sln.docstates
 *.GhostDoc.xml
+*.v2.ncrunch*
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
