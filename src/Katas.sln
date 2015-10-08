@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9934813F-F6E5-4DC9-80DF-EFAB925008D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA35EDE2-481C-4153-804F-F6ADB56E890E}"
+	ProjectSection(SolutionItems) = preProject
+		randori-rules.txt = randori-rules.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4A277101-BFCC-42CC-8133-AC51A03E5724}"
 	ProjectSection(SolutionItems) = preProject

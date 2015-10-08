@@ -1,0 +1,9 @@
+Randori Rules
+=============
+
+1.	If you have the keyboard, you get to decide what to type.
+2.	If you have the keyboard and you don’t know what to type, ask for help.
+3.	If you are asked for help, kindly respond to the best of your ability.
+4.	If you are not asked, but you see an opportunity for improvement or learning, choose an appropriate moment to mention it. 
+	This may involve waiting until the next time all the tests pass (for design improvement suggestions) or until the retrospective.
+5.	Each person has 7 minutes to drive (have the keyboard).  At the end of the period, the group moves to the right one seat. 
