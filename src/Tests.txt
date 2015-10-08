@@ -1,0 +1,8 @@
+Tests
+=====
+
+The following are a suggested list of tests in priority order for the Bowling kata.
+
+1.  gutter game
+2.  all ones
+3.  
