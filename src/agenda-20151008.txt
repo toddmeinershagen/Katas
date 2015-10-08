@@ -2,13 +2,31 @@ Agenda - 2015/10/08
 ===================
 
 1.	Introduce/Review Dojo Principles
+
 2.	Activity Concensus
+
 3.	Coding
+
 	a.	Design - Domain Model
 	b.	Code - Randori
+
 4.	Retrospective
+
 	a.	Right Down
-		- Something you learned
+
 		- Something that surprised you
+		- Something you learned
+		- Something you plan to take with you
 		- Something you still don't understand
+
 	b.	Share
+
+	c.  Prompters
+
+		- What are the best aspects of the design of the code we’ve ended up with?
+		- In what ways did we do Test Driven Development particularly well?
+		- Did we learn anything new?
+		- Did anything unexpected happen?
+		- What do we still need to practice more?
+		- What should we do differently in the next dojo?
+		- What will you do differently tomorrow in your production code?
