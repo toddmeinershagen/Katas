@@ -8,11 +8,15 @@ Agenda - 2015/10/08
 3.	Coding
 
 	a.	Design - Domain Model
-	b.	Code - Randori
+	b.	Coding
+		
+		- Style:		Randori
+		- Objective:	TDD
+		- Exercise(s):	Bowling Game, String Calculator
 
 4.	Retrospective
 
-	a.	Right Down
+	a.	Write Down
 
 		- Something that surprised you
 		- Something you learned
