@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-using FluentAssertions;
+﻿using FluentAssertions;
 
 using NUnit.Framework;
 
@@ -21,9 +19,7 @@ namespace Katas.Bowling.UnitTests
 		[Test]
 		public void given_a_gutter_game_when_getting_score_then_should_return_0()
 		{
-			
-			Enumerable.Range(1, 20).ToList()
-				.ForEach(index => _game.Roll(pins: 0));
+			RollMultipleSameNumberPins(0, 20);
 
 			_game.Score.Should().Be(0);
 		}
@@ -32,36 +28,50 @@ namespace Katas.Bowling.UnitTests
 		public void given_roll_all_ones_when_getting_score_then_should_return_20()
 		{
 
-			Enumerable.Range(1, 20).ToList()
-				.ForEach(index => _game.Roll(pins: 1));
+			RollMultipleSameNumberPins(1, 20);
 
 			_game.Score.Should().Be(20);
 		}
+
 		[Test]
 		public void One_Spare_Test()
 		{
 
-			_game.Roll(5);
-			_game.Roll(5);
-			_game.Roll(3);
-
-			Enumerable.Range(1, 17).ToList()
-			.ForEach(index => _game.Roll(pins: 0));
-			
+			Roll(5,5,3);
+			RollMultipleSameNumberPins(0, 17);	
 
 			_game.Score.Should().Be(16);
 
-			RollMany(5,5,3,0);
 		}
 
-		private void RollMany(int numberOfRolls, int pins)
+		[Test]
+		public void roll_one_strike_and_two_random_rolls_and_all_other_gutter_balls_should_be_10()
 		{
-			
+			Roll(10);
+			Roll(5,3);
+			RollMultipleSameNumberPins(0,17);
+			_game.Score.Should().Be(26);
 		}
 
-		private void RollMany(params int[] rolls)
+		private void RollMultipleSameNumberPins(int pins, int times)
 		{
+
+			for (var i = 0; i < times; i++)
+			{
+				Roll(pins);
+			}
+		}
+
+		private void Roll(params int[] pins)
+		{
+			foreach (var pin in pins)
+			{
+				_game.Roll(pin);
+			}
 			
 		}
+		
 	}
 }
+
+
