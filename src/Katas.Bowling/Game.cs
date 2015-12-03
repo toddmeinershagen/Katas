@@ -2,7 +2,7 @@
 
 namespace Katas.Bowling
 {
-	public class Game
+	public class Game : IGame
 	{
 		private readonly List<int> _rolls = new List<int>();
 
@@ -11,8 +11,16 @@ namespace Katas.Bowling
 		{
 			if (IsRollAStrike(pins))
 			{
-				_rolls.Add(pins);
-				_rolls.Add(0);
+
+				if (_rolls.Count < 20)
+				{
+					_rolls.Add(pins);
+					_rolls.Add(0);
+				}
+				else
+				{
+					_rolls.Add(0);
+				}
 			}
 			else
 			{
@@ -36,7 +44,7 @@ namespace Katas.Bowling
 			{
 				var score = 0;
 
-				for (var i = 0; i < 10; i++)
+				for (var i = 0; i < _rolls.Count/2; i++)
 				{
 					var frameIndex = i*2;
 					var frameScore = _rolls[frameIndex] + _rolls[frameIndex + 1];
@@ -44,6 +52,10 @@ namespace Katas.Bowling
 					if (IsStrike(frameIndex))
 					{
 						score += frameScore + GetStrikeBonus(frameIndex);
+						if (frameIndex < 18 && IsStrike(frameIndex + 2))
+						{
+							score += GetStrikeBonus(frameIndex + 2);
+						}
 					}
 					else if (IsSpare(frameIndex))
 					{
@@ -66,7 +78,9 @@ namespace Katas.Bowling
 
 		private int GetStrikeBonus(int frameIndex)
 		{
+			if (frameIndex > 18) return 0;
 			return _rolls[frameIndex + 2] + _rolls[frameIndex + 3];
+			
 		}
 
 		private bool IsSpare(int frameIndex)

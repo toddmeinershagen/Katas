@@ -49,8 +49,15 @@ namespace Katas.Bowling.UnitTests
 		{
 			Roll(10);
 			Roll(5,3);
-			RollMultipleSameNumberPins(0,17);
+			RollMultipleSameNumberPins(0,16);
 			_game.Score.Should().Be(26);
+		}
+
+		[Test]
+		public void given_when_roll_all_strikes_then_the_score_should_be_300()
+		{
+			RollMultipleSameNumberPins(10, 12);
+			_game.Score.Should().Be(300);
 		}
 
 		private void RollMultipleSameNumberPins(int pins, int times)
@@ -73,5 +80,3 @@ namespace Katas.Bowling.UnitTests
 		
 	}
 }
-
-
