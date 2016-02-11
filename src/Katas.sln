@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA35EDE2-481C-4153-804F-F6ADB56E890E}"
 	ProjectSection(SolutionItems) = preProject
 		agenda-20151008.txt = agenda-20151008.txt
+		agenda-20160211.txt = agenda-20160211.txt
 		pas-coding-dojo-intro.pptx = pas-coding-dojo-intro.pptx
 		randori-rules.txt = randori-rules.txt
 		Katas.UnitTests\tdd-flow.gif = Katas.UnitTests\tdd-flow.gif

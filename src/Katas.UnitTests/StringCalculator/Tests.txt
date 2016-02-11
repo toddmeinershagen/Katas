@@ -1,0 +1,25 @@
+﻿String Calculator - Tests
+=========================
+
+* Try not to read ahead
+* Do one task at a time.  The trick is to learn to work incrementally.
+* There is no need to test for invalid inputs for this kata; assume string is correctly formatted.
+
+1.  Create string calculator with method int Add(string numbers)
+	a.  Can take 0, 1, or 2 numbers and will return the sum
+		""		= 0
+		"4"		= 4
+		"4,5"	= 9
+	b.  Start with simplest case and work up to the 2 numbers
+	c.  Solve things as simply as possible
+	d.  Refactor after each passing test (TDD::RED-GREEN-REFACTOR)
+
+2.  Allow Add to handle unlimited number of numbers
+4.  Support different delimiters
+	a.  To change delimiter, beginning of string will contain a separator line
+		"//[delimiter]\n[numbers...]"
+		"//;\n1;2" = 3
+	b.	The first line is optional, so should still support the other scenarios
+5.	Call Add with negative numbers should throw an exception
+	a.	Message should look like "Negatives are not allowed.  [n1,n2,n3]"
+	b.  The numbers listed in the message are the ones that are negative.

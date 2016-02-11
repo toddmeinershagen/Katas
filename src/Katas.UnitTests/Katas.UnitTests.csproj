@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Bowling\katas-bowling-design.JPG" />
     <Content Include="Bowling\Tests.txt" />
+    <Content Include="StringCalculator\Tests.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

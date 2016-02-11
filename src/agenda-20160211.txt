@@ -1,0 +1,43 @@
+Agenda - 2015/02/11
+===================
+
+1.	Introduce/Review Dojo Principles
+
+2.	Activity Concensus
+
+3.	Coding
+
+	a.	Coding
+		
+		- Style:		Randori
+		- Objective:	TDD
+		- Exercise(s):	String Calculator
+
+4.	Retrospective
+
+	a.	Write Down
+
+		- Something that surprised you
+		- Something you learned
+		- Something you plan to take with you
+		- Something you still don't understand
+
+		-Additional:
+			-Did you ever write more code than you needed to make the current tests pass?
+			-Did you ever have more than one failing test at a time?
+			-Did the tests fail unexpectedly at any point?  If so, why?
+			-How much did writing the tests slow you down?
+			-Did you write more tests than you would have if you had coded first and written tests afterwards?
+			-re you happy with the design of the code you ended up with?  Should have refactored it?
+
+	b.	Share
+
+	c.  Prompters
+
+		- What are the best aspects of the design of the code we’ve ended up with?
+		- In what ways did we do Test Driven Development particularly well?
+		- Did we learn anything new?
+		- Did anything unexpected happen?
+		- What do we still need to practice more?
+		- What should we do differently in the next dojo?
+		- What will you do differently tomorrow in your production code?
