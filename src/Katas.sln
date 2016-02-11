@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Bowling", "Katas.Bowling\Katas.Bowling.csproj", "{51F54B61-44E1-414D-9F40-7E7F137A2DF4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Bowling.UnitTests", "Katas.Bowling.UnitTests\Katas.Bowling.UnitTests.csproj", "{DEF55C20-4590-42E9-B50A-E5E05A3157C5}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9934813F-F6E5-4DC9-80DF-EFAB925008D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA35EDE2-481C-4153-804F-F6ADB56E890E}"
@@ -14,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		agenda-20151008.txt = agenda-20151008.txt
 		pas-coding-dojo-intro.pptx = pas-coding-dojo-intro.pptx
 		randori-rules.txt = randori-rules.txt
+		Katas.UnitTests\tdd-flow.gif = Katas.UnitTests\tdd-flow.gif
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4A277101-BFCC-42CC-8133-AC51A03E5724}"
@@ -23,25 +20,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4A2771
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas", "Katas\Katas.csproj", "{2FCFAD44-3574-4A6E-BE9C-F710D90FF641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.UnitTests", "Katas.UnitTests\Katas.UnitTests.csproj", "{656A5C39-4DED-4F94-BCBD-29090DA345A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{51F54B61-44E1-414D-9F40-7E7F137A2DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51F54B61-44E1-414D-9F40-7E7F137A2DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51F54B61-44E1-414D-9F40-7E7F137A2DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51F54B61-44E1-414D-9F40-7E7F137A2DF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEF55C20-4590-42E9-B50A-E5E05A3157C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEF55C20-4590-42E9-B50A-E5E05A3157C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEF55C20-4590-42E9-B50A-E5E05A3157C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEF55C20-4590-42E9-B50A-E5E05A3157C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FCFAD44-3574-4A6E-BE9C-F710D90FF641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCFAD44-3574-4A6E-BE9C-F710D90FF641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCFAD44-3574-4A6E-BE9C-F710D90FF641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCFAD44-3574-4A6E-BE9C-F710D90FF641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656A5C39-4DED-4F94-BCBD-29090DA345A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656A5C39-4DED-4F94-BCBD-29090DA345A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656A5C39-4DED-4F94-BCBD-29090DA345A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656A5C39-4DED-4F94-BCBD-29090DA345A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DEF55C20-4590-42E9-B50A-E5E05A3157C5} = {9934813F-F6E5-4DC9-80DF-EFAB925008D0}
+		{656A5C39-4DED-4F94-BCBD-29090DA345A9} = {9934813F-F6E5-4DC9-80DF-EFAB925008D0}
 	EndGlobalSection
 EndGlobal

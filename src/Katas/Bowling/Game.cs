@@ -9,7 +9,7 @@ namespace Katas.Bowling
 
 		public void Roll(int pins)
 		{
-			if (IsRollAStrike(pins))
+			if (RolledAStrike(pins))
 			{
 
 				if (_rolls.Count < 20)
@@ -28,7 +28,7 @@ namespace Katas.Bowling
 			}
 		}
 
-		private bool IsRollAStrike(int pins)
+		private bool RolledAStrike(int pins)
 		{
 			return (pins == 10) && (IsFirstRollOfTheFrame());
 		}
